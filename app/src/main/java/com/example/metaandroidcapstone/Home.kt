@@ -187,10 +187,3 @@ val categoriesList = listOf("All",
     "Desserts",
     "Salads",
     "Appetizers")
-
-
-//@Preview(showBackground = true)
-//@Composable
-//fun Preview(){
-//    Home( )
-//}

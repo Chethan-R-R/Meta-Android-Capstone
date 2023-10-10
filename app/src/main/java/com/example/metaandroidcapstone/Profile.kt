@@ -1,6 +1,5 @@
 package com.example.metaandroidcapstone
 
-import android.widget.Toast
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Column
@@ -17,10 +16,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.navigation.NavController
 import androidx.navigation.NavHostController
 
 @Composable
@@ -75,9 +72,3 @@ fun LabelText(label:String,text:String){
         .fillMaxWidth()
         .padding(vertical = 10.dp, horizontal = 10.dp), text = text, fontSize = 18.sp)
 }
-
-//@Preview(showBackground = true)
-//@Composable
-//fun Preview(){
-//    Profile()
-//}

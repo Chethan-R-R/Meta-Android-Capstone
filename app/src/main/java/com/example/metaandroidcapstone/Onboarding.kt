@@ -102,9 +102,3 @@ fun Onboarding(context: MainActivity,navController: NavHostController){
 
     }
 }
-
-//@Preview(showBackground = true)
-//@Composable
-//fun Preview(){
-//    Onboarding()
-//}
