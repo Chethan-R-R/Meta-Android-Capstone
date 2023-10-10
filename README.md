@@ -14,4 +14,11 @@ https://github.com/Chethan-R-R/Meta-Android-Capstone/assets/119437771/2db33958-7
 * Android Jetpack Compose
 * Ktor
 * SQLite Room
-  
+* Figma
+
+## Wireframe
+![Wireframe-app](https://github.com/Chethan-R-R/Meta-Android-Capstone/assets/119437771/313724bb-b84c-41f5-8f82-6415243b7ccc)
+
+## Prototype
+![Prototype-app](https://github.com/Chethan-R-R/Meta-Android-Capstone/assets/119437771/3591fd49-a6a9-4442-b8f9-5cd18697dc35)
+
