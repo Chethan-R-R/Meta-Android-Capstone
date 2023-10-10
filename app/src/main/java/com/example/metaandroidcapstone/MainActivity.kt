@@ -4,9 +4,14 @@ import android.os.Bundle
 import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material3.Surface
 import androidx.compose.runtime.State
 import androidx.compose.runtime.livedata.observeAsState
 import androidx.compose.runtime.mutableStateOf
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.lifecycle.lifecycleScope
 import androidx.room.Room
 import com.example.metaandroidcapstone.ui.theme.MetaAndroidCapstoneTheme
@@ -46,7 +51,9 @@ class MainActivity : ComponentActivity() {
         setContent {
             MetaAndroidCapstoneTheme {
                  menuItems = appDb.menuDao().getAll().observeAsState(initial = emptyList())
-                MyNavigation(this,isLoggedIn.value)
+                Surface(modifier = Modifier.fillMaxSize().background(Color.White)) {
+                    MyNavigation(this,isLoggedIn.value)
+                }
             }
         }
 

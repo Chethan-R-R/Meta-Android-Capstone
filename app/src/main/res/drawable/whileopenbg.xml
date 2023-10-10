@@ -1,0 +1,18 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background shape -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/partialWhite" />
+        </shape>
+    </item>
+
+    <!-- Image layer with padding and gravity to center it -->
+    <item android:drawable="@drawable/themebg"
+        android:gravity="center"
+        android:width="200dp"
+        android:height="350dp"
+        android:left="10dp"
+        android:top="10dp"
+        android:right="10dp"
+        android:bottom="10dp"/>
+</layer-list>
