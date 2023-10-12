@@ -11,6 +11,7 @@ https://github.com/Chethan-R-R/Meta-Android-Capstone/assets/119437771/2db33958-7
 * User Profile Screen: Provides a user profile view.
   
 ## Technologies Used
+* Kotlin
 * Android Jetpack Compose
 * Ktor
 * SQLite Room
